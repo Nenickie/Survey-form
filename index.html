@@ -2,13 +2,14 @@
 <html>
   <head>
     <title>Survey form</title>
-  
+     <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-<h1 id ="title"></h1>
-<p id = "description"></p>
-<form id = "survey-form">
-  <label for ="name" id = "name-label">
+<h1 id ="title">Survey Form</h1>
+<p id = "description">this is a survey form</p>
+
+<form id = "survey-form" >
+<label for ="name" id = "name-label">
 <input id= "name" type = "text" placeholder = "enter your name" required>
 <label for ="email" id = "email-label">
 <input type = "email" name = "email" id = "email" placeholder = "enter your email" required>
@@ -23,6 +24,15 @@
 <label for="cats">cats</label><br>
 <input type="radio" name="animals" value="dogs">
 <label for="dogs">dogs</label><br>
+
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> I have a bike</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2"> I have a car</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> I have a boat</label><br>
+<input type="textarea" placeholder="comments">
+<input type="button" id="submit " value="submit">
 </form>
 
       </body>
